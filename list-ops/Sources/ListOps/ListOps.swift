@@ -31,7 +31,11 @@ class ListOps {
     }
     
     static func length(_ array: [Int]) -> Int {
-        return 0
+        var count = 0
+        array.indices.forEach {_ in
+            count += 1
+        }
+        return count
     }
     
     

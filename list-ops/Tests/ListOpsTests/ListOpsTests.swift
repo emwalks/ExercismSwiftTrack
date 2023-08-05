@@ -35,10 +35,10 @@ class ListOpsTests: XCTestCase {
         XCTAssertEqual(ListOps.length([]), 0)
     }
 
-//    func testLengthNonemptyList() {
-//        XCTAssertEqual(ListOps.length([1, 2, 3, 4]), 4)
-//    }
-//
+    func testLengthNonemptyList() {
+        XCTAssertEqual(ListOps.length([1, 2, 3, 4]), 4)
+    }
+
 //    func testMapEmptyList() {
 //        XCTAssertEqual(ListOps.map([]) { $0 + 1 }, [])
 //    }
@@ -92,8 +92,8 @@ class ListOpsTests: XCTestCase {
             ("testConcatListOfLists", testConcatListOfLists),
             ("testFilterEmptyList", testFilterEmptyList),
             ("testFilterNonemptyList", testFilterNonemptyList),
-//            ("testLengthEmptyList", testLengthEmptyList),
-//            ("testLengthNonemptyList", testLengthNonemptyList),
+            ("testLengthEmptyList", testLengthEmptyList),
+            ("testLengthNonemptyList", testLengthNonemptyList),
 //            ("testMapEmptyList", testMapEmptyList),
 //            ("testMapNonemptyList", testMapNonemptyList),
 //            ("testFoldLeftEmptyList", testFoldLeftEmptyList),
