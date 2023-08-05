@@ -39,10 +39,10 @@ class ListOpsTests: XCTestCase {
         XCTAssertEqual(ListOps.length([1, 2, 3, 4]), 4)
     }
 
-//    func testMapEmptyList() {
-//        XCTAssertEqual(ListOps.map([]) { $0 + 1 }, [])
-//    }
-//
+    func testMapEmptyList() {
+        XCTAssertEqual(ListOps.map([]) { $0 + 1 }, [])
+    }
+
 //    func testMapNonemptyList() {
 //        XCTAssertEqual(ListOps.map([1, 3, 5, 7]) { $0 + 1 }, [2, 4, 6, 8])
 //    }

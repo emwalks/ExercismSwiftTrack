@@ -38,6 +38,16 @@ class ListOps {
         return count
     }
     
+    static func map(_ array: [Int],
+                       _ condition:
+                       (_ parameter: Int) -> Int
+    ) -> [Int] {
+        var result: [Int] = []
+        
+        return result
+    }
+    
+    
     
     
     
