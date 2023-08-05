@@ -30,6 +30,10 @@ class ListOps {
         return result
     }
     
+    static func length(_ array: [Int]) -> Int {
+        return 0
+    }
+    
     
     
     

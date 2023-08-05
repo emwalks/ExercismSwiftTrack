@@ -31,10 +31,10 @@ class ListOpsTests: XCTestCase {
         XCTAssertEqual(ListOps.filter([1, 2, 3, 4, 5]) { $0 % 2 == 1 }, [1, 3, 5])
     }
 
-//    func testLengthEmptyList() {
-//        XCTAssertEqual(ListOps.length([]), 0)
-//    }
-//
+    func testLengthEmptyList() {
+        XCTAssertEqual(ListOps.length([]), 0)
+    }
+
 //    func testLengthNonemptyList() {
 //        XCTAssertEqual(ListOps.length([1, 2, 3, 4]), 4)
 //    }
