@@ -39,10 +39,15 @@ class ListOps {
     }
     
     static func map(_ array: [Int],
-                       _ condition:
+                       _ operation:
                        (_ parameter: Int) -> Int
     ) -> [Int] {
         var result: [Int] = []
+        
+        array.indices.forEach { index in
+            let valueAtIndex = array[index]
+                result += [operation(valueAtIndex)]
+        }
         
         return result
     }
